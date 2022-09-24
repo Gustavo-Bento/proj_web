@@ -1,12 +1,8 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-
 var NewComponent = React.createClass({
   render: function() {
     return (
       <div>
-        <title>W3.CSS Template</title>
+        <title>WProjeto Final Web</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
