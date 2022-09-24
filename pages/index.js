@@ -1,6 +1,9 @@
-var NewComponent = React.createClass({
-  render: function() {
-    return (
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+
+export default function Home() {
+  return (
       <div>
         <title>WProjeto Final Web</title>
         <meta charSet="UTF-8" />
@@ -130,6 +133,5 @@ var NewComponent = React.createClass({
           {/* End page content */}
         </div>
       </div>
-    );
-  }
-});
+  );
+}
